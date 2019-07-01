@@ -1,0 +1,22 @@
+{
+    "name": "tiketux/token",
+    "authors": [
+        {
+            "name": "Muhammad Anis",
+            "email": "m.anis@3trust.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tiketux\\Token\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tiketux\\Token\\TokenServiceProvider"
+            ]
+        }
+    }
+}
